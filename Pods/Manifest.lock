@@ -1,0 +1,10 @@
+PODS:
+  - CorePlot (1.5.1)
+
+DEPENDENCIES:
+  - CorePlot (= 1.5.1)
+
+SPEC CHECKSUMS:
+  CorePlot: 4abaf1be82ff7d1220f4aed16996a93970ea5a0e
+
+COCOAPODS: 0.33.1

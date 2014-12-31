@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CBD94A51-6A4A-4971-8D8C-6C03DAA35C58</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BTCKeep</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AA4C0690-AF7C-43AC-8F54-BCCF5296D780</key>
+		<string>https://svn.ocsico.com/BTCKeep</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/BTCKeep/BTCKeep.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AA4C0690-AF7C-43AC-8F54-BCCF5296D780</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>AA4C0690-AF7C-43AC-8F54-BCCF5296D780</key>
+		<string>https://svn.ocsico.com/BTCKeep</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.ocsico.com/BTCKeep/trunk/BTCKeep/BTCKeep.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA4C0690-AF7C-43AC-8F54-BCCF5296D780</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA4C0690-AF7C-43AC-8F54-BCCF5296D780</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BTCKeep</string>
+		</dict>
+	</array>
+</dict>
+</plist>

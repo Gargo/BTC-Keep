@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BKCoinexCurrency" representedClassName="BKCoinexCurrency" parentEntity="BKCurrency" syncable="YES">
+        <attribute name="algo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="blkConf" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="diff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="donations" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hashrate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastBlockAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="miningEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="miningFee" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="miningScore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="miningScoreMarket" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="miningSkipSwitch" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="miningUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="netHashRate" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="switchedAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="txConf" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="txFee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BKCoinexOrder" representedClassName="BKCoinexOrder" parentEntity="BKOrder" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="bid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cancelled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="complete" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filled" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tradePairId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="BKCoinexTrade" representedClassName="BKCoinexTrade" parentEntity="BKTrade" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="askUserId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bidUserId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="BKCoinexTradePair" representedClassName="BKCoinexTradePair" parentEntity="BKTradePair" syncable="YES">
+        <attribute name="buyFee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellFee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlSlug" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BKCurrency" representedClassName="BKCurrency" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isVirtual" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BKOrder" representedClassName="BKOrder" isAbstract="YES" syncable="YES"/>
+    <entity name="BKTrade" representedClassName="BKTrade" isAbstract="YES" syncable="YES">
+        <attribute name="bid" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="tradePairId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="BKTradePair" representedClassName="BKTradePair" syncable="YES">
+        <attribute name="currencyId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="currencyVolume" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastPrice" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="marketId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="marketVolume" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="rateMax" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="rateMin" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BKCoinexCurrency" positionX="0" positionY="144" width="128" height="300"/>
+        <element name="BKCoinexOrder" positionX="9" positionY="153" width="128" height="208"/>
+        <element name="BKCoinexTrade" positionX="18" positionY="162" width="128" height="88"/>
+        <element name="BKCoinexTradePair" positionX="27" positionY="171" width="128" height="103"/>
+        <element name="BKCurrency" positionX="36" positionY="180" width="128" height="103"/>
+        <element name="BKOrder" positionX="45" positionY="189" width="128" height="45"/>
+        <element name="BKTrade" positionX="-9" positionY="135" width="128" height="118"/>
+        <element name="BKTradePair" positionX="0" positionY="144" width="128" height="165"/>
+    </elements>
+</model>
